@@ -1,31 +1,30 @@
 {
-    "id": "urn:ngsi-ld:ConsumptionObserved:EN04",
-    "type": "ConsumptionObserved",
-    "dateObserved": "2016-12-01T10:45:00.00Z",
-    "dateFrom": "2016-12-01T10:30:00.00Z",
-    "dateTo": "2016-12-01T10:45:00.00Z",
-    "consumptionPoint": "urn:ngsi-ld::ConsumptionPoint:EN04",
-    "consumptionType": "LowVoltage",
-    "consumption":
-    [
+  "id": "urn:ngsi-ld:ConsumptionObserved:EN04",
+  "type": "ConsumptionObserved",
+  "dateObserved": "2016-12-01T10:45:00.00Z",
+  "dateFrom": "2016-12-01T10:30:00.00Z",
+  "dateTo": "2016-12-01T10:45:00.00Z",
+  "consumptionPoint": "urn:ngsi-ld::ConsumptionPoint:EN04",
+  "consumptionType": "LowVoltage",
+  "consumption": [
       {
-        "measurementType":"ActivePower",
-         "measurementUnit":"kW",
-         "value":12.52
+          "measurementType": "ActivePower",
+          "measurementUnit": "kW",
+          "value": 12.52
       },
       {
-        "measurementType":"CapacitivePower",
-         "measurementUnit":"kWH",
-         "value":12.52
+          "measurementType": "CapacitivePower",
+          "measurementUnit": "kWH",
+          "value": 12.52
       },
       {
-        "measurementType":"InductivePower",
-         "measurementUnit":"kW",
-         "value":12.52
+          "measurementType": "InductivePower",
+          "measurementUnit": "kW",
+          "value": 12.52
       }
-    ],
-"@context": [
-    "https://smart-data-models.github.io/dataModel.Consumption/context.jsonld",
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.Consumption/master/context.jsonld"
-  ]	
+  ],
+  "@context": [
+      "https://smart-data-models.github.io/dataModel.Consumption/context.jsonld",
+      "https://raw.githubusercontent.com/CityCatalyst/smart-data-models/main/Consumption/context.jsonld?token=GHSAT0AAAAAAB7YOAAJ6A43G6SP5LPSCCEEZAPANGA"
+  ]
 }
