@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "ConsumptionObserved": "https://smartdatamodels.org/dataModel.Consumption/ConsumptionObserved",
+        "ConsumptionCost": "https://smartdatamodels.org/dataModel.Consumption/ConsumptionCost",
+        "ConsumptionPoint": "https://smartdatamodels.org/dataModel.Consumption/ConsumptionPoint",
+        "address": "https://smartdatamodels.org/address",
+        "alternateName": "https://smartdatamodels.org/alternateName",
+        "areaServed": "https://smartdatamodels.org/areaServed",
+        "consumptionPoint": "https://smartdatamodels.org/dataModel.Consumption/consumptionPoint",
+        "consumptionPointCategory": "https://smartdatamodels.org/dataModel.Consumption/consumptionPointCategory",
+        "dataProvider": "https://smartdatamodels.org/dataProvider",
+        "data": "ngsi-ld:data",
+        "dateCreated": "https://smartdatamodels.org/dateCreated",
+        "dateIssued": "https://smartdatamodels.org/dataModel.Weather/dateIssued",
+        "dateModified": "https://smartdatamodels.org/dateModified",
+        "dateObserved": "https://smartdatamodels.org/dateObserved",
+        "description": "http://purl.org/dc/terms/description",
+        "energyConsumedAndCost": "https://smartdatamodels.org/dataModel.Consumption/energyConsumedAndCost",
+        "id": "@id",
+        "location": "ngsi-ld:location",
+        "name": "https://smartdatamodels.org/name",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "owner": "https://smartdatamodels.org/owner",
+        "seeAlso": "https://smartdatamodels.org/seeAlso",
+        "source": "https://smartdatamodels.org/source",
+        "type": "@type",
+        "year": "https://smartdatamodels.org/dataModel.Consumption/year",
+        "month": "https://smartdatamodels.org/dataModel.Consumption/month"
+       
+    }
+}
