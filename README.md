@@ -3,8 +3,8 @@
 ### List of data models
 
 The following entity types are available:
-- [ConsumptionCost](https://github.com/smart-data-models/dataModel.Consumption/blob/master/ConsumptionCost/README.md). Information of energy consumed and its cost by consumption point
+- [ConsumptionCost](https://github.com/smart-data-models/dataModel.Consumption/blob/master/ConsumptionCost). Information of energy consumed and its cost by consumption point
 
-- [ConsumptionPoint](https://github.com/smart-data-models/dataModel.Consumption/blob/master/ConsumptionPoint/README.md). Information on a given consumption point
+- [ConsumptionPoint](https://github.com/smart-data-models/dataModel.Consumption/blob/master/ConsumptionPoint). Information on a given consumption point
 
-- [ConsumptionObserved](https://github.com/ccg-msantos/CityCatalyst/tree/main/smart-data-models/Consumption/ConsumptionObserved/README.md). Information on a given consumption observed for a consumption point
+- [ConsumptionObserved](https://github.com/CityCatalyst/smart-data-models/tree/main/Consumption/ConsumptionObserved). Information on a given consumption observed for a consumption point
