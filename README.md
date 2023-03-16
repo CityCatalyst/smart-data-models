@@ -20,4 +20,4 @@ The latest version of these Data Models can be found at https://github.com/smart
 ### List of data models created ou extended
 
 The following entity types are available:
-- [CrowdFlowObserved](https://github.com/FIWARE/data-models/tree/master/specs/Transportation/CrowdFlowObserved). Represent the movement of people in public spaces, such as streets, squares, or parks. It is designed to provide real-time information about the volume and direction of pedestrian flows, which can be used for various applications, including urban planning, transportation management, and public safety.
+- [CrowdFlowObserved](https://github.com/FIWARE/data-models/tree/master/specs/Transportation/CrowdFlowObserved). Represent the movement of people in public spaces, such as streets, squares, or parks. It is designed to provide real-time information about the volume and direction of pedestrian flows, which can be used for various applications, including urban planning, transportation management, and public safety..
