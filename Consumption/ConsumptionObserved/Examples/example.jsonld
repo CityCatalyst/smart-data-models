@@ -25,6 +25,6 @@
   ],
   "@context": [
       "https://smart-data-models.github.io/dataModel.Consumption/context.jsonld",
-      "https://raw.githubusercontent.com/CityCatalyst/smart-data-models/main/Consumption/context.jsonld?token=GHSAT0AAAAAAB7YOAAJ6A43G6SP5LPSCCEEZAPANGA"
+      "https://raw.githubusercontent.com/CityCatalyst/smart-data-models/main/Consumption/context.jsonld"
   ]
 }
