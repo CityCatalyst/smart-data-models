@@ -8,16 +8,19 @@
   "consumptionType": "LowVoltage",
   "consumption": [
       {
+          "observedAt": "2016-12-01T10:45:00.00Z",
           "measurementType": "ActivePower",
           "measurementUnit": "kW",
           "value": 12.52
       },
       {
+          "observedAt": "2016-12-01T10:45:00.00Z",
           "measurementType": "CapacitivePower",
           "measurementUnit": "kWH",
           "value": 12.52
       },
       {
+          "observedAt": "2016-12-01T10:45:00.00Z",
           "measurementType": "InductivePower",
           "measurementUnit": "kW",
           "value": 12.52
