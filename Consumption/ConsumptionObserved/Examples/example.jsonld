@@ -1,9 +1,9 @@
 {
   "id": "urn:ngsi-ld:ConsumptionObserved:EN04",
   "type": "ConsumptionObserved",
-  "dateObserved": "2016-12-01T10:45:00.00Z",
-  "dateFrom": "2016-12-01T10:30:00.00Z",
-  "dateTo": "2016-12-01T10:45:00.00Z",
+  "observedAt": "2016-12-01T10:45:00.00Z",
+  "observedFrom": "2016-12-01T10:30:00.00Z",
+  "observedTo": "2016-12-01T10:45:00.00Z",
   "consumptionPoint": "urn:ngsi-ld::ConsumptionPoint:EN04",
   "consumptionType": "LowVoltage",
   "consumption": [
