@@ -79,13 +79,13 @@
                     {
                       "type": "string",
                       "enum": [
-                        "CapacitivePower"
+                        "CapacitiveReactivePower"
                       ]
                     },
                     {
                       "type": "string",
                       "enum": [
-                        "InductivePower"
+                        "InductiveReactivePower"
                       ]
                     },
                     {
@@ -101,7 +101,9 @@
                   "type": "string",
                   "enum": [
                     "kW",
-                    "KWH"
+                    "KWH",
+                    "kVA",
+                    "kVAr"
                   ]
                 },
                 "value": {
