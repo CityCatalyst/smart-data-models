@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0.1",
-  "$id": "https://smart-data-models.github.io/dataModel.Consumption/ConsumptionObserved/schema.json",
+  "$id": "https://raw.githubusercontent.com/CityCatalyst/smart-data-models/main/Consumption/ConsumptionObserved/schema.json",
   "title": "Smart Data Models - Consumption Observed",
   "description": "Information of energy consumed  Observed by consumption point",
   "modelTags": "",
