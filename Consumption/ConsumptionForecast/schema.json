@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0.1",
-  "$id": "https://smart-data-models.github.io/dataModel.Consumption/ConsumptionForecast/schema.json",
+  "$id": "https://raw.githubusercontent.com/CityCatalyst/smart-data-models/main/Consumption/ConsumptionForecast/schema.json",
   "title": "Smart Data Models - Consumption Forecast",
   "description": "Information of energy forecast  by consumption point",
   "modelTags": "",
