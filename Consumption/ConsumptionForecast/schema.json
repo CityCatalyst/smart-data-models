@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.0.1",
+  "$id": "https://smart-data-models.github.io/dataModel.Consumption/ConsumptionForecast/schema.json",
+  "title": "Smart Data Models - Consumption Forecast",
+  "description": "Information of energy forecast  by consumption point",
+  "modelTags": "",
+  "derivedFrom": "",
+  "license": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ConsumptionObserved"
+          ],
+          "description": "Property. NGSI Entity type"
+        },
+        "dateObserved": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Property. Model:'https://schema.org/DateTime'. The date and time the forecast was retrieved in ISO8601 UTC format."
+        },
+        "dateFrom": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Property. Model:'https://schema.org/DateTime'. The date and time the forecast was retrieved in ISO8601 UTC format."
+        },
+        "dateTo": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Property. Model:'https://schema.org/DateTime'. The date and time the forecast was retrieved in ISO8601 UTC format."
+        },
+        "consumptionPoint": {
+          "description": "Relationship. Consumption point identifier which to entity refers.",
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+            }
+          ]
+        },
+        "consumptionType": {
+          "type": "string",
+          "enum": [
+            "HighVoltage",
+            "MediumVoltage",
+            "LowVoltage"
+          ],
+          "description": "Property. Model:'https://schema.org/Text'. Type of Phase. A unique value. Enum:'High Voltage (HV), Medium Voltage (MV), Low Voltage (LV)'"
+        },
+        "consumption": {
+          "type": "array",
+          "description": "Property. Array with energy consumption and cost by type of energy.",
+          "items": [
+            {
+              "type": "object",
+              "description": "Property. Entity with the energy consumed and its cost by type of energy.",
+              "properties": {
+                "measurementType": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "ActivePower"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "enum": [
+                        "CapacitiveReactivePower"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "enum": [
+                        "InductiveReactivePower"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "enum": [
+                        "ApparentPower"
+                      ]
+                    }
+                  ]
+                },
+                "measurementUnit": {
+                  "description": "Property. Measurement unit used. Units:'[kW, KWH]'. Official list at https://unece.org/trade/documents/2021/06/uncefact-rec20",
+                  "type": "string",
+                  "enum": [
+                    "kW",
+                    "KWH",
+                    "kVA",
+                    "kVAr"
+                  ]
+                },
+                "value": {
+                  "type": "number",
+                  "description": "Property. Value of the amount of the energy consumed."
+                }
+              }
+            }
+          ],
+          "minItems": 1
+        }
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type",
+    "dateObserved",
+    "consumptionPoint",
+    "consumption"
+  ]
+}
