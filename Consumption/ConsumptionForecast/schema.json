@@ -24,6 +24,11 @@
           ],
           "description": "Property. NGSI Entity type"
         },
+         "dateIssued": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Property. Model:'https://schema.org/DateTime'. The date and time the forecast was issued by the ML  in ISO8601 UTC format"
+        },
         "dateFrom": {
           "type": "string",
           "format": "date-time",
@@ -116,6 +121,7 @@
   "required": [
     "id",
     "type",
+    "dateIssued"
     "dateFrom",
     "dateTo",
     "consumptionPoint",
