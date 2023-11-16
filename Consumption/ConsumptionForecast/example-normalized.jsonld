@@ -1,7 +1,7 @@
 {
   "id": "urn:ngsi-ld:ConsumptionForecast:PT0002000066429862HT",
   "type": "ConsumptionForecast",
-  "dateObserved": "2016-12-01T10:45:00.00Z",
+  "dateIssued": "2016-12-01T10:45:00.00Z",
   "dateFrom": "2016-12-01T10:30:00.00Z",
   "dateTo": "2016-12-01T10:45:00.00Z",
   "consumptionPoint": "urn:ngsi-ld::ConsumptionPoint:PT0002000066429862HT",
